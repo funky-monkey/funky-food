@@ -8,9 +8,32 @@
 
 import SwiftUI
 
+enum AppState {
+    case empty
+    case loading
+    case loaded
+}
 struct ContentView: View {
+    
+    @State var state: AppState = .empty
+    @State var items = [FermentationCell]()
+    
     var body: some View {
-        Text("Hello, World!")
+        
+        TabView {
+            NavigationView {
+                    EmptyStateView().navigationBarTitle("Nothing Fermenting")
+                }.tabItem {
+                    Text("My Funky Food")
+                    Image(systemName: "hare")
+            }
+            NavigationView {
+                FermentationList().navigationBarTitle("Fermentation Library")
+            }.tabItem {
+                Text("Library")
+                Image(systemName: "book")
+            }
+        }
     }
 }
 

@@ -1,0 +1,62 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 11/03/2019 08:11
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-001-malt:before { content: "\f100"; }
+.flaticon-002-grinder:before { content: "\f101"; }
+.flaticon-003-brewing:before { content: "\f102"; }
+.flaticon-004-brewing-1:before { content: "\f103"; }
+.flaticon-005-brewing-2:before { content: "\f104"; }
+.flaticon-006-brewing-3:before { content: "\f105"; }
+.flaticon-007-conveyor:before { content: "\f106"; }
+.flaticon-008-beer:before { content: "\f107"; }
+.flaticon-009-barrels:before { content: "\f108"; }
+.flaticon-010-burner:before { content: "\f109"; }
+.flaticon-011-brewing-4:before { content: "\f10a"; }
+.flaticon-012-barrels-1:before { content: "\f10b"; }
+.flaticon-013-boiler:before { content: "\f10c"; }
+.flaticon-014-brewing-5:before { content: "\f10d"; }
+.flaticon-015-still:before { content: "\f10e"; }
+.flaticon-016-brewing-6:before { content: "\f10f"; }
+.flaticon-017-beer-1:before { content: "\f110"; }
+.flaticon-018-beer-keg:before { content: "\f111"; }
+.flaticon-019-beer-2:before { content: "\f112"; }
+.flaticon-020-blender:before { content: "\f113"; }
+.flaticon-021-test-tube:before { content: "\f114"; }
+.flaticon-022-timer:before { content: "\f115"; }
+.flaticon-023-valve:before { content: "\f116"; }
+.flaticon-024-distillation:before { content: "\f117"; }
+.flaticon-025-wine-press:before { content: "\f118"; }
+.flaticon-026-beer-keg-1:before { content: "\f119"; }
+.flaticon-027-press:before { content: "\f11a"; }
+.flaticon-028-beer-keg-2:before { content: "\f11b"; }
+.flaticon-029-pint-of-beer:before { content: "\f11c"; }
+.flaticon-030-malt-1:before { content: "\f11d"; }
